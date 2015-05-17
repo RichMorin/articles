@@ -26,7 +26,7 @@ continuing.
 Whatever it was, I more or less accidentally stumbled upon
 [Elm](http://elm-lang.org). The [examples](http://elm-lang.org/Examples.elm)
 did not look so scary like many type theory filled Haskell tutorials, so I
-gave it a shot and read trough all the
+gave it a shot and read through all the
 [tutorials/articles](http://elm-lang.org/Learn.elm) while constantly [playing
 around](http://elm-lang.org/try) with the stuff I just found out.
 
@@ -47,14 +47,14 @@ full FP or game development tutorial, but perhaps it can inspire you to have
 a deeper look into the FP paradigm and then maybe share my excitement. :-)
 
 
-## Differences to a hypothetical imperative implementation in C++
+## Differences from a hypothetical imperative implementation in C++
 
 If I had written this game (resp. a non browser
 version of it) in C++, I probably would have used
 [SFML](http://www.sfml-dev.org), which is a very good library for making games
 like this. I already used it to write a [Snake like
-game](https://github.com/Dobiasd/Dron). My cost estimations for that project
-would probably be more man-days than it surprisingly took me to do it in Elm,
+game](https://github.com/Dobiasd/Dron). My cost estimations for that project,
+surprisingly, would probably be more man-days than it took me to do it in Elm,
 a language I had no experience with at all!
 
 One reason for that is the much
@@ -64,7 +64,7 @@ browser. But OK, except the
 also possible with some imperative languages.
 The much more astonishing fact
 for me was, that I did not need many of these cycles. Sometimes I wrote code
-for nearly an hour and as soon as [Elm's Haskell like type
+for nearly an hour and as soon as [Elm's Haskell-like type
 system](http://elm-lang.org/learn/Understanding-Types.elm) did not give
 me errors any more while compiling, the code just worked! There was very
 rarely a need to debug it at all! I guess this comes from the notion, that if
@@ -74,8 +74,8 @@ when just thinking in [expressions and no more in
 statements](http://stackoverflow.com/questions/4728073/what-is-the-difference-between-an-expression-and-a-statement-in-python),
 there is not so much control flow you have to emulate in your head. And it is
 easier to structure your code. The temptation to write spaghetti code
-functions is not that big and if one still grows too long, it is very easy to
-factor out the parts that can stand meaningful for their own. Furthermore the
+functions is not that big and if a function still grows too long, it is very easy to
+factor out the parts that are meaningful on their own. Furthermore the
 refactoring is not scary at all. I didn't introduce one single bug while
 factoring out stuff to add new functionality, like the traction between the
 paddle and the ball.
